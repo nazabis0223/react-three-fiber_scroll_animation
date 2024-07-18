@@ -1,0 +1,20 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  /*background-color: #d9afd9;*/
+  background-image: linear-gradient(
+    to right top,
+    #dad7cd,
+    #d2cfbb,
+    #c9c8a9,
+    #bdc199,
+    #b0ba89,
+    #9fae7c,
+    #8da270,
+    #7c9664,
+    #658257,
+    #506e4a,
+    #3d5a3d,
+    #2b4730
+  );
+}
