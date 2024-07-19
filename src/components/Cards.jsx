@@ -31,7 +31,7 @@ export const Cards = () => {
 
   useFrame(() => {
     setOpacityFirstSection(1 - scroll.range(0, 1 / 3));
-    setOpacitySecondSection(scroll.curve(1 / 3, 1 / 3));
+    setOpacitySecondSection(scroll.curve(1 / 9, 2 / 3));
     setOpacityLastSection(scroll.range(2 / 3, 1 / 3));
   });
 
