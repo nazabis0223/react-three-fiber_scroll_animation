@@ -32,7 +32,7 @@ export const Cards = () => {
   useFrame(() => {
     setOpacityFirstSection(1 - scroll.range(0, 1 / 3));
     setOpacitySecondSection(scroll.curve(1 / 3, 1 / 3));
-    setOpacityLastSection(scroll.range(2 / 6, 1 / 3));
+    setOpacityLastSection(scroll.range(1 / 6, 1 / 3));
   });
 
   return (
@@ -50,11 +50,11 @@ export const Cards = () => {
             <li>Blender to modeling the assets</li>
             <li>React (To run on the web, I mean)</li>
             <li>
-              ThreeJs to bring to the web the blender models, all the 3D web
+              ThreeJs to bring to the web those blender models, all the 3D web
               related
             </li>
             <li>GSAP library to include the scroll animations</li>
-            <li>Tailwind to customize cards and text</li>
+            <li>Tailwind to apply styles on the cards and text</li>
           </ul>
           <p className="animate-bounce  mt-6">↓</p>
         </Section>
