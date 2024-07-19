@@ -32,12 +32,12 @@ export const Cards = () => {
   useFrame(() => {
     setOpacityFirstSection(1 - scroll.range(0, 1 / 3));
     setOpacitySecondSection(scroll.curve(1 / 3, 1 / 3));
-    setOpacityLastSection(scroll.range(1 / 6, 1 / 3));
+    setOpacityLastSection(scroll.range(2 / 3, 1 / 3));
   });
 
   return (
     <Scroll html>
-      <div className="py-8">
+      <div className="">
         <Section opacity={opacityFirstSection}>
           <h1 className="font-semibold font-serif text-3xl">
             ThreeJs with Blender!

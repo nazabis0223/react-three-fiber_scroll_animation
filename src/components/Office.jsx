@@ -107,7 +107,7 @@ export function Office(props) {
         duration: 1,
         y: Math.PI / 2,
       },
-      2.5
+      2
     );
 
     tl.current.from(
@@ -117,7 +117,7 @@ export function Office(props) {
 
         z: -2,
       },
-      3.5
+      2.5
     );
   }, []);
 
