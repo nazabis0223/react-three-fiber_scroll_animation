@@ -77,10 +77,10 @@ export function Office(props) {
     tl.current.from(
       libraryRef.current.position,
       {
-        duration: 0.5,
+        duration: 1,
         x: -2,
       },
-      0.5
+      1
     );
     tl.current.from(
       libraryRef.current.rotation,
@@ -98,26 +98,26 @@ export function Office(props) {
         duration: 1.5,
         y: 2,
       },
-      0
+      1.5
     );
 
     tl.current.from(
       atticRef.current.rotation,
       {
-        duration: 0.5,
+        duration: 1,
         y: Math.PI / 2,
       },
-      1
+      2.5
     );
 
     tl.current.from(
       atticRef.current.position,
       {
-        duration: 0.5,
+        duration: 1,
 
         z: -2,
       },
-      1.5
+      3.5
     );
   }, []);
 
@@ -150,4 +150,4 @@ export function Office(props) {
   );
 }
 
-useGLTF.preload("./models/WawaOffice.glb");
+useGLTF.preload("./models/Office.glb");

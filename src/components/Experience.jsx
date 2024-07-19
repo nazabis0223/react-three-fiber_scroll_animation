@@ -7,7 +7,7 @@ export const Experience = () => {
     <>
       <OrbitControls enableZoom={false} />
       <ambientLight intensity={1} />
-      <ScrollControls pages={NB_FLOORS} damping={4} />
+      <ScrollControls pages={NB_FLOORS} damping={3} />
       <Office />
     </>
   );
