@@ -54,6 +54,7 @@ export const Cards = () => {
               related
             </li>
             <li>GSAP library to include the scroll animations</li>
+            <li>Tailwind to customize cards and text</li>
           </ul>
           <p className="animate-bounce  mt-6">↓</p>
         </Section>
