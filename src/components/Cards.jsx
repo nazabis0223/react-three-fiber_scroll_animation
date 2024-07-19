@@ -40,7 +40,7 @@ export const Cards = () => {
       <div className="">
         <Section opacity={opacityFirstSection}>
           <h1 className="font-semibold font-serif text-3xl">
-            ThreeJs with Blender!
+            ThreeJs with Blender! 🚀
           </h1>
           <p className="text-gray-900">
             This excercise combine awesome tools from 3d Web development as the
