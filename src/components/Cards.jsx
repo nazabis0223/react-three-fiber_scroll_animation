@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unknown-property */
 /* eslint-disable react/prop-types */
+
 import { Scroll, useScroll } from "@react-three/drei";
 import { useFrame } from "@react-three/fiber";
 import { useState, useRef, useEffect } from "react";
@@ -60,8 +61,7 @@ export const Cards = () => {
         </Section>
         <Section right opacity={opacitySecondSection}>
           <h1 className="font-semibold font-serif text-2xl">
-            Nowadays these visuals are taking huge approach on web development
-            🔥
+            Nowadays these visuals are taking huge approach on web development 🔥
           </h1>
           <p className="mt-3">
             <b>Full frontend skills</b>
